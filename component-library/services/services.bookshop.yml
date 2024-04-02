@@ -1,0 +1,37 @@
+spec:
+  structures:
+    - content_blocks
+  label: Services
+  description: Services section
+  icon: build
+  tags: []
+blueprint:
+  preheading: ''
+  heading: ''
+  sections:
+    - title: ''
+      icon: ''
+      content: ''
+preview:
+  preheading: Our Services
+  heading: 'We provide a wide range of creative services '
+  sections:
+    - title: Web development
+      icon: ti-desktop
+      content: A digital agency isn't here to replace your internal team, we're here to partner.
+    - title: Interface Design
+      icon: ti-layers
+      content: A digital agency isn't here to replace your internal team, we're here to partner.
+    - title: Business Consulting
+      icon: ti-bar-chart
+      content: A digital agency isn't here to replace your internal team, we're here to partner.
+    - icon: ti-vector
+      title: Branding
+      content: A digital agency isn't here to replace your internal team, we're here to partner.
+    - title: WordPress To SSG
+      icon: ti-web
+      content: the seamless transition from a WordPress-powered website to the efficiency and speed of Hugo Static Site Generator (SSG). Say goodbye to database dependencies and hello to a new era of static website.
+    - title: Content creation
+      icon: ti-pencil-alt
+      content: A digital agency isn't here to replace your internal team, we're here to partner.
+_inputs: {}
