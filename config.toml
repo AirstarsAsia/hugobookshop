@@ -4,10 +4,10 @@ title = "Hugo Bookshop Starter"
 _enabled_editors = ["visual", "content"]
 
 [module]
-replacements = "local/component-library -> ../component-library"
+replacements = "components.local -> ../component-library"
 
 [[module.imports]]
-path = 'local/component-library'
+path = 'components.local'
 
 [[module.imports]]
 path = 'github.com/cloudcannon/bookshop/hugo/v3'

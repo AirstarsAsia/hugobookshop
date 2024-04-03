@@ -20,6 +20,8 @@
         <!-- Loop through any structures in the front-matter and render them -->
         {{ partial "bookshop_bindings" `.Params.content_blocks` }}
         {{ partial "bookshop_partial" (slice "page" .Params.content_blocks) }}
+        {{ partial "bookshop" (slice "sample" (dict "text" "Hello from the sample component")) }}
+
         <!-- Render any additional page content below the page's content blocks -->
         {{ block "main" . }}{{ end }}
     </main>
